@@ -1,3 +1,32 @@
+body {
+  margin: 0;
+}
+
+#navbar {
+  background-color: beige;
+  position: fixed;
+  top: 0px;
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px;
+}
+
+
 #welcome-section {
+  text-align: center;
   height: auto;
+  padding-top: 300px;
+  padding-bottom: 200px;
+}
+
+#projects {
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
